@@ -44,6 +44,6 @@ int stride = gridDim.x * blockDim.x;
 
 for (int i = idx; i < N; i += stride)
 {
-a[i] = a[i]; //do work
+	a[i] = a[i]; //do work
 }
 ```
