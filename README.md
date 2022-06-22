@@ -6,6 +6,7 @@
  ## Course
  1. [Accelerating Applications with CUDA C/C++](AC_CUDA_C.ipynb)
  2. [Unified Memory](Unified%20Memory.ipynb)
+ 3. [Streaming and Visual Profiling](Streaming_and_Visual_Profiling.ipynb)
 
 ## Objectives
 	By the time you complete this lab, you will be able to:
