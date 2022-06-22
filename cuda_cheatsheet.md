@@ -9,7 +9,7 @@
 ```
 ### Calling kernel
 ```cpp
-			//n_blocks, n_threads
+		//n_blocks, n_threads
 	GPUFunction<<<1, 1>>>();
 ```
 
