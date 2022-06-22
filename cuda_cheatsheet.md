@@ -47,3 +47,27 @@ for (int i = idx; i < N; i += stride)
 	a[i] = a[i]; //do work
 }
 ```
+
+### Shared memory management error handling
+``` cpp
+cudaError_t err;
+err = cudaMallocManaged(&a, N);                    	// Assume the existence of `a` and `N`.
+
+if (err != cudaSuccess)                           	// `cudaSuccess` is provided by CUDA.
+{
+	printf("Error: %s\n", cudaGetErrorString(err)); // `cudaGetErrorString` is provided by CUDA.
+}
+
+```
+
+### Kernel running error handling
+``` cpp
+someKernel<<<1, -1>>>();  // -1 is not a valid number of threads.
+
+cudaError_t err;
+err = cudaGetLastError(); // `cudaGetLastError` will return the error from above.
+if (err != cudaSuccess)
+{
+	printf("Error: %s\n", cudaGetErrorString(err));
+}
+```
