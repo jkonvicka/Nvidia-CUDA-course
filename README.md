@@ -6,6 +6,8 @@
 ## NVIDIA DLI Certificate
 ✅ [ce7b1370c4484875811a1a47160a6ea6](https://courses.nvidia.com/certificates/ce7b1370c4484875811a1a47160a6ea6/)
 
+**Final assessment kernel execution time:** 0.495862 sec [max. 1.3 sec]
+
 ## Course
  1. [Accelerating Applications with CUDA C/C++](AC_CUDA_C.ipynb)
  2. [Unified Memory](Unified%20Memory.ipynb)
