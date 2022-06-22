@@ -3,7 +3,10 @@
  
  [💡CUDA cheatsheet](./cuda_cheatsheet.md)
  
- ## Course
+## NVIDIA DLI Certificate
+✅ [ce7b1370c4484875811a1a47160a6ea6](https://courses.nvidia.com/certificates/ce7b1370c4484875811a1a47160a6ea6/)
+
+## Course
  1. [Accelerating Applications with CUDA C/C++](AC_CUDA_C.ipynb)
  2. [Unified Memory](Unified%20Memory.ipynb)
  3. [Streaming and Visual Profiling](Streaming_and_Visual_Profiling.ipynb)
